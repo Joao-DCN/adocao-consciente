@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adoção Consciente</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+  <header>
+    <div class="logo">
+      🐾 <span>ADOÇÃO<br>CONSCIENTE</span>
+    </div>
+    
+    <nav class="header-nav">
+      <a href="#">Início</a>
+      <a href="#">Animais</a>
+      <a href="#">Favoritos</a>
+      <a href="#">Sobre</a>
+      <a href="#">Contato</a>
+    </nav>
+
+    <div class="header-actions">
+      <div class="search-bar">
+        <input type="text" placeholder="Buscar animais...">
+        <button>🔍</button>
+      </div>
+      <button id="theme-toggle" class="theme-toggle-btn">🌙</button>
+    </div>
+  </header>
+
+  <div class="container">
+    
+    <nav class="sidebar">
+      <h2>Filtros</h2>
+      
+      <div class="filter-group">
+        <label for="especie">Espécie</label>
+        <select id="especie">
+          <option>Todas</option>
+          <option>Cão</option>
+          <option>Gato</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="porte">Porte</label>
+        <select id="porte">
+          <option>Todos</option>
+          <option>Pequeno</option>
+          <option>Médio</option>
+          <option>Grande</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="idade">Idade</label>
+        <select id="idade">
+          <option>Todas</option>
+          <option>Filhote</option>
+          <option>Adulto</option>
+          <option>Idoso</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="sexo">Sexo</label>
+        <select id="sexo">
+          <option>Todas</option>
+          <option>Macho</option>
+          <option>Fêmea</option>
+        </select>
+      </div>
+
+      <button class="btn-filtrar">Filtrar</button>
+    </nav>
+
+    <main>
+      <article class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=400" alt="Mel">
+        <div class="card-content">
+          <div class="card-header">
+            <h3>Mel</h3>
+            <button class="favorite-btn">♡</button>
+          </div>
+          <p class="card-info">Médio • 2 anos</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=400" alt="Luna">
+        <div class="card-content">
+          <div class="card-header">
+            <h3>Luna</h3>
+            <button class="favorite-btn active">♥</button>
+          </div>
+          <p class="card-info">Pequeno • 1 ano</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1552053831-71594a27632d?w=400" alt="Thor">
+        <div class="card-content">
+          <div class="card-header">
+            <h3>Thor</h3>
+            <button class="favorite-btn">♡</button>
+          </div>
+          <p class="card-info">Grande • 3 anos</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1537151625747-768eb6cf92b2?w=400" alt="Nina">
+        <div class="card-content">
+          <div class="card-header">
+            <h3>Nina</h3>
+            <button class="favorite-btn active">♥</button>
+          </div>
+          <p class="card-info">Pequeno • 6 meses</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1517849845537-4d257902454a?w=400" alt="Bob">
+        <div class="card-content">
+          <div class="card-header">
+            <h3>Bob</h3>
+            <button class="favorite-btn">♡</button>
+          </div>
+          <p class="card-info">Médio • 2 anos</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=400" alt="Frajola">
+        <div class="card-content">
+          <div class="card-header">
+            <h3>Frajola</h3>
+            <button class="favorite-btn">♡</button>
+          </div>
+          <p class="card-info">Pequeno • 1 ano</p>
+        </div>
+      </article>
+    </main>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2026 Adoção Consciente - Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
