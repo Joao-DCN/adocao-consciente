@@ -14,3 +14,17 @@ themeToggleBtn.addEventListener('click', () => {
   themeToggleBtn.textContent = isDarkMode ? '☀️' : '🌙';
   localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
 });
+
+const favoriteButtons = document.querySelectorAll('.favorite-btn');
+
+favoriteButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    button.classList.toggle('active');
+    
+    if (button.classList.contains('active')) {
+      button.textContent = '♥';
+    } else {
+      button.textContent = '♡';
+    }
+  });
+});
